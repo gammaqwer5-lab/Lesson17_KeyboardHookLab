@@ -28,7 +28,7 @@ public sealed class MainForm : Form
         KeyDown += OnKeyDown;
         KeyUp += OnKeyUp;
     }
-
+     
     private void OnKeyDown(object? sender, KeyEventArgs e)
     {
         if (e.KeyCode == Keys.Escape)
